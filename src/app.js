@@ -13,3 +13,6 @@ var d ;
 console.log(d);
 StudeNt = 10;
 console.log("StudeNt");
+var f = 19;
+var g = 12;
+console.log(f+g);
