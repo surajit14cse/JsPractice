@@ -19,3 +19,5 @@ console.log(f+g);
 console.log(f*g);
 console.log(f/g);
 console.log(f-g);
+var v = 2.7 * 4.6;
+console.log(v);
