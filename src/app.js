@@ -9,3 +9,5 @@ var b = "school";
 console.log(b);
 var c = true;
 console.log(c);
+var d ;
+console.log(d);
