@@ -64,7 +64,7 @@ var r = `Marry Doe`; //pitch
 
 
 //String Concatination
-console.log("Abc"+"Abc");
+console.log(p+q);
 
 //String Interpolation
 console.log(`${p} ${q}`);
@@ -72,3 +72,18 @@ console.log(`${p} ${q}`);
 
 //Escape
 console.log("A\tB\nC\\D\`E\'F\"G\r");
+
+//Equals
+console.log(p === q); //False
+console.log(p === r); //True
+
+//Length of srting
+console.log(r.length);
+
+//Find n'th char of string
+console.log(r[4]);
+
+//Immutability
+r[4] = 'w';
+
+console.log(r);
