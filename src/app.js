@@ -16,3 +16,6 @@ console.log("StudeNt");
 var f = 19;
 var g = 12;
 console.log(f+g);
+console.log(f*g);
+console.log(f/g);
+console.log(f-g);
