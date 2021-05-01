@@ -11,3 +11,5 @@ var c = true;
 console.log(c);
 var d ;
 console.log(d);
+StudeNt = 10;
+console.log("StudeNt");
