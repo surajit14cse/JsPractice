@@ -1,32 +1,74 @@
+//Console print
 console.log("hello word");
-console.log("jdghkgjkg");
-// console.log("jhgftyfh");
-console.log("fuck");
-var a = 4;
+
+// Comment in js [Ctrl+C] & Uncomment [Ctrl+U]
+console.log("from 1");
+// console.log("from 2"); 
+console.log("from 3");
+
+//Declare Variable
+var a = 4; //Number
 console.log(a);
 
-var b = "school";
+var b = "school"; //String
 console.log(b);
-var c = true;
+var c = true; //Boolean
 console.log(c);
+
+//Uninitialize Variable
 var d ;
 console.log(d);
-StudeNt = 10;
-console.log("StudeNt");
-var f = 19;
-var g = 12;
+
+//Case Sensitivity
+var StudeNt = 10;
+var Student = 15;
+console.log(StudeNt, Student);
+
+//Arithmatic Operation
+var f = 19; //Assign
+var g = 12; //Assign
+//Addition
 console.log(f+g);
+//Substruction
 console.log(f*g);
+//Multiplition
 console.log(f/g);
+//Division
 console.log(f-g);
+//Findig a reminder
 console.log(f%g);
+
+//increment
+console.log(f++) //First print, then increase
+
+console.log(++g) //First increase, then print
+
+//Decrement
+console.log(f--) //First print, then decrease
+
+console.log(--g) //First decrease, then print
+
+//Augmented Operation
+g = g+2;
+f += 2;
+
 
 //with decimal point
 var v = 2.7 * 4.6;
 console.log(v);
 
+//String Declaration
+var p = "Marry Doe"; //Double qoute
+var q = 'Smith'; //Double qoute
+var r = `Marry Doe`; //pitch
+
+
 //String Concatination
 console.log("Abc"+"Abc");
 
 //String Interpolation
-console.log(`qwerdvjv ${v} jcdjkv`);
+console.log(`${p} ${q}`);
+
+
+//Escape
+console.log("A\tB\nC\\D\`E\'F\"G\r");
