@@ -19,5 +19,14 @@ console.log(f+g);
 console.log(f*g);
 console.log(f/g);
 console.log(f-g);
+console.log(f%g);
+
+//with decimal point
 var v = 2.7 * 4.6;
 console.log(v);
+
+//String Concatination
+console.log("Abc"+"Abc");
+
+//String Interpolation
+console.log(`qwerdvjv ${v} jcdjkv`);
