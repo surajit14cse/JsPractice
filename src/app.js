@@ -99,3 +99,31 @@ console.log(x);
 //Splitting
 x = r.split('y');
 console.log(x);
+
+//Array
+
+var arr = [1, 10, 13, 8, 3];
+console.log(arr);
+
+arr = [true, false, true];
+console.log(arr);
+
+
+arr = ['ABC', 'DEF', 'SAD', 'GG BJB'];
+console.log(arr);
+
+arr = [1, 3 , 'abc', true];
+console.log(arr);
+
+//Array length
+console.log(arr.length);
+
+//find with index
+console.log(arr[2]);
+
+
+//replace 
+arr[2] = 45;
+console.log(arr);
+
+
