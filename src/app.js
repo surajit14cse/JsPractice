@@ -82,8 +82,20 @@ console.log(r.length);
 
 //Find n'th char of string
 console.log(r[4]);
+console.log(r.charAt(4));
 
 //Immutability
 r[4] = 'w';
 
 console.log(r);
+
+//Last Char
+console.log(r[r.length -1]);
+
+//Slicing
+var x = r.slice(3, 8);
+console.log(x);
+
+//Splitting
+x = r.split('y');
+console.log(x);
