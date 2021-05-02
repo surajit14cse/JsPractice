@@ -127,3 +127,28 @@ arr[2] = 45;
 console.log(arr);
 
 
+//push - Add at last
+arr.push("QWE");
+console.log(arr);
+
+//pop - Remove from Last
+arr.pop();
+console.log(arr);
+
+//shift - Remove from First
+var shifted = arr.shift();
+console.log(shifted);
+console.log(arr);
+
+//unshift - Add at First
+arr.unshift(17);
+console.log(arr);
+
+//Nested Array
+arr.push([29, 55, 72]);
+console.log(arr);
+
+
+
+
+
