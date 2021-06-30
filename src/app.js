@@ -148,6 +148,42 @@ console.log(arr);
 arr.push([29, 55, 72]);
 console.log(arr);
 
+//Data of arry
+var myArry=[12,30,50];
+console.log(myArry[0], myArry[1]);
+
+//modify arry data with index
+var mysecondArry=[18,64,99];
+console.log(mysecondArry)
+mysecondArry[0]=45;
+console.log(mysecondArry[0]);
+mysecondArry[1]=65;
+console.log(mysecondArry[1]);
+
+//Push or pop
+
+var a = ["a", "b", "c",];
+a.pop();
+console.log(a);
+
+a.push("d");
+console.log(a);
+ //Shift Unshift
+
+ var a = [ "cat", "dog", "fox"];
+ a.shift();
+ console.log(a);
+
+ a.unshift("max");
+ console.log(a);
+
+ //Concat
+ var a = [ "sanjoy", "Sumon", "Rahul"];
+ var b = a.concat("Joy", "Rani");
+ console.log(b);
+ 
+
+
 
 
 
