@@ -181,6 +181,10 @@ console.log(a);
  var a = [ "sanjoy", "Sumon", "Rahul"];
  var b = a.concat("Joy", "Rani");
  console.log(b);
+
+//Join
+
+console.log(a.join(" "));
  
 
 
