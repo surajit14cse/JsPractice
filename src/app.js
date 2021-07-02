@@ -233,11 +233,27 @@ function add(){
     }
     return result;
 }
- console.log( add( 4,5,10,12));
+ console.log( add( 4,5,10,12 , 10));
+
+//global Scope
+
+ var globalVar = "I am Local";
+
+ function any (){
+     var localVar = "I am global";
+     console.log(localVar);
+     console.log(globalVar);
 
 
+     if (true) {
+        var insideIf = "I am inside If";
+        console.log(insideIf);
+        
 
+        
+    }
+ }
 
-
-
-
+    
+ any();
+ 
