@@ -217,7 +217,13 @@ function PrintEvenOrOdd(myNumber) {
 }
 
 
+//Parameterarized Function
+function add(a, b, c) {
+    return a + b + c;
+}
+console.log(add(2, 4, 6));
  
+
 
 
 
