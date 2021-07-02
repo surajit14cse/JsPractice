@@ -182,9 +182,41 @@ console.log(a);
  var b = a.concat("Joy", "Rani");
  console.log(b);
 
-//Join
+ //Join
 
-console.log(a.join(" "));
+ console.log(a.join(" "));
+
+//Shooping List
+var myList = [
+    ["chocolate Bar",15],
+
+];
+
+console.log(myList);
+console.log(myList.length);
+
+myList.push(["Steak",3],["rice",1], ["Ice Cream",2]);
+
+console.log(myList);
+
+for (let i = 0; i < 100; i++) {
+    
+    PrintEvenOrOdd(i);
+
+    
+}
+
+//Write Reusable with Functions
+function PrintEvenOrOdd(myNumber) {
+    if(myNumber%2==0){
+        console.log(myNumber+ " even");
+    }
+    else{
+        console.log(myNumber+" odd");
+    }
+}
+
+
  
 
 
