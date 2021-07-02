@@ -223,6 +223,17 @@ function add(a, b, c) {
 }
 console.log(add(2, 4, 6));
  
+//Arguments
+   
+function add(){
+    let result = 0;
+    for (let i = 0; i < arguments.length; i++) {
+        result += arguments[i];
+        
+    }
+    return result;
+}
+ console.log( add( 4,5,10,12));
 
 
 
