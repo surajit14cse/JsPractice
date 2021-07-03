@@ -304,3 +304,12 @@ console.log(sum);
 console.log(fire);
 console.log(NextLine(fire,6));
 console.log(fire);
+
+//Boolean Values
+
+function IsEven(item) {
+    return item % 2 == 0;    
+}
+
+var boolitem = IsEven(23);
+console.log(boolitem);
