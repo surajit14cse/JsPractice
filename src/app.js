@@ -285,13 +285,22 @@ console.log(sum);
 
 //Assignment with a Returned Value
 
- //sum = add(10,12,14);
- //console.log(sum);
-
+ sum = add(10,12,14);
+ console.log(sum);
+//Assignment with a Returned Value
  function mul (a , b) {
      return a*b;
 
  }
-  sum = mul(18, 20);
-  console.log(sum);
+sum = mul(18, 20);
+console.log(sum);
 
+  // Stand in Line
+   var fire = [1, 2, 3, 4, 5];
+  function NextLine(arr, item) {
+      arr.push(item);
+      return arr.shift();
+  }
+console.log(fire);
+console.log(NextLine(fire,6));
+console.log(fire);
