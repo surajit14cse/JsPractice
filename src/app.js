@@ -283,4 +283,15 @@ addFive();
 console.log(addThree());
 console.log(sum);
 
+//Assignment with a Returned Value
+
+ //sum = add(10,12,14);
+ //console.log(sum);
+
+ function mul (a , b) {
+     return a*b;
+
+ }
+  sum = mul(18, 20);
+  console.log(sum);
 
