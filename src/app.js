@@ -256,4 +256,31 @@ function add(){
 
     
  any();
+
+ //Return a Value from a Function
  
+ function host(){
+     console.log('I am host function...');
+     return function(){
+         console.log('I am chiled' ) ;
+           }
+ }
+ var a = host();
+ console.log(a);
+
+ //Undefined Value returned
+
+ var sum = 0;
+ function addThree(){
+     sum = sum + 3;
+ }
+
+
+ function addFive(){
+     sum += 5;
+ }
+addFive();
+console.log(addThree());
+console.log(sum);
+
+
