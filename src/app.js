@@ -40,3 +40,15 @@ function testStrictNotEqual(val) {
 return "Equal";
 }
 console.log(testStrictNotEqual(23));
+
+//Greater Than Operator
+function testGreaterThan(val) {
+    if (val > 100) {
+        return "Over 100";
+    }
+    if (val > 10 ) {
+        return "Ober 10";
+    }
+    return "10 or Under";
+}
+console.log(testGreaterThan(50));
