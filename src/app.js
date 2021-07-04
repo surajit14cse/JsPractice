@@ -20,3 +20,13 @@ function compareEqual(a, b) {
 
 console.log(compareEqual(10, "10"));
 console.log(compareEqual(100, "10"));
+
+//Inequality Operator
+function testNonEqual(val) {
+    if (val != 95) {
+        return "Not Equal";
+    }
+return "Equal";
+}
+console.log(testNonEqual(85));
+console.log(testNonEqual(95));
