@@ -30,3 +30,13 @@ return "Equal";
 }
 console.log(testNonEqual(85));
 console.log(testNonEqual(95));
+
+
+//Strict Inequality Operator
+function testStrictNotEqual(val) {
+    if (val !== 23) {
+        return "Not Equal";
+    }
+return "Equal";
+}
+console.log(testStrictNotEqual(23));
