@@ -68,3 +68,23 @@ function orderMyLogic(val) {
     }
 }
 console.log(orderMyLogic(11));
+
+//Chaining If Else Statements
+function testSize(num) {
+    if (num < 5) {
+        return "tiny";
+    }
+    else if (num < 10) {
+        return "small";
+    }
+    else if (num < 15) {
+        return "Medium";
+    }
+    else if (num < 20) {
+        return "Big";
+    }
+    else if (num < 25 ) {
+        return "Hugi"
+    }
+}
+console.log(testSize(21));
