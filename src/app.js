@@ -52,3 +52,19 @@ function testGreaterThan(val) {
     return "10 or Under";
 }
 console.log(testGreaterThan(50));
+
+//Logical Order in If Else Statements
+
+function orderMyLogic(val) {
+    if (val < 10) {
+        return "Less than 10";
+    }
+    else if (val < 5) {
+        return "Less than 5";
+    }
+    else {
+        return "Greater than or equal to 10";
+
+    }
+}
+console.log(orderMyLogic(11));
