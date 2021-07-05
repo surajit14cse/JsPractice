@@ -140,3 +140,29 @@ function caseInSwitch(val) {
     return answer;
 }
 console.log(caseInSwitch(3));
+
+//Default Option in Switch Statements
+
+function switchOfSutff(val) {
+    var answer = "";
+    switch(val){
+        case "a":
+            answer = "alpha";
+            break;
+    
+        case "b":
+        answer = "bird";
+        break;
+
+        case "c":
+        answer = "cat";
+        break;
+    
+        default:
+            answer = "stuff";
+            break;
+       
+    }
+    return answer;
+}
+console.log(switchOfSutff("c"));
