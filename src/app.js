@@ -192,3 +192,28 @@ function sequentialSizes(val) {
 }
 console.log(sequentialSizes(4));
 
+//Replacing If Else Chains with Switch 
+
+function chainToSwitch(val) {
+    var answer = "";
+    switch (val){
+        case "bob":
+            answer = "marly";
+            break;
+        case 42:
+            answer = "The Answer";
+            break;
+        case 1:
+            answer = "The number #1";
+            break;
+        case 99:
+            answer = "Missed me by this much";        
+            break;
+           case 7:
+               answer = "Ate Nine";
+               break;
+    } 
+    return answer;
+}
+console.log(chainToSwitch(99));
+
