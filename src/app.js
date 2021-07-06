@@ -249,3 +249,10 @@ function dayInMonth(month, year) {
 
 }
 console.log(dayInMonth(9, 2020));
+
+//Returning Boolean Values from Functions
+
+function isLess (a, b) {
+    return a < b;
+}
+console.log(isLess(50, 15));
