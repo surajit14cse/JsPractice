@@ -335,3 +335,16 @@ var entreeValue = testObj ["an entree"];
 var drinkValue = testObj ['the drink'];
 
 console.log(entreeValue);
+
+//Accessing Object properties with Variables
+
+var testObj = {
+    12: "Namath",
+    16: "Montana",
+    19: "Unitas"
+};
+
+var PlayerNumber = 16;
+var player = testObj[16];
+console.log(PlayerNumber);
+console.log(player);
