@@ -295,5 +295,14 @@ function cc(card) {
     return count + " " + holdbet
 }
 
-cc(2); cc('K'); cc(7); cc('K'); cc('A');
-console.log(cc(A));
+cc(2); cc('K'); cc(10); cc('K'); cc('A');
+console.log(cc(6));
+
+//Build Java Script Objects
+var ourDog  = {
+    "name": "bull",
+    "color": "Clack",
+    "lage": 4,
+    "tails": 1,
+    "friends":[]
+};
