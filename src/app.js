@@ -345,6 +345,29 @@ var testObj = {
 };
 
 var PlayerNumber = 16;
-var player = testObj[16];
+var player = testObj[19];
 console.log(PlayerNumber);
 console.log(player);
+
+//Updatin Object Properties
+var ourDog  = {
+    "name": "bull",
+    "color": "Clack",
+    "lage": 4,
+    "tails": 1,
+    "friends":[]
+};
+
+ourDog.name = "happy Camper";
+
+var myDog = {
+    "name": "coder",
+    "color": "black",
+    "lages":4,
+    "tails":1,
+    "friends": ["shohan"]
+
+};
+myDog.name = "happy Cpoder ";
+
+console.log(myDog);
