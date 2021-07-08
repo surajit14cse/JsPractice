@@ -396,3 +396,33 @@ var myDog = {
 ourDog ['bark'] = "woof!"
 console.log(ourDog.bark);
 console.log(ourDog);
+
+//Delete Properties from Object
+
+var ourDog  = {
+    "name": "bull",
+    "color": "Clack",
+    "lage": 4,
+    "tails": 1,
+    "friends":["everything"],
+    "bark": "bow-wow",
+    
+};
+delete ourDog.color;
+
+
+
+var myDog = {
+    "name": "coder",
+    "color": "black",
+    "lages":4,
+    "tails":1,
+    "friends": ["shohan"],
+    "bark": "woof"
+
+}; 
+delete myDog.tails;
+
+console.log(myDog);
+
+console.log(ourDog);
