@@ -426,3 +426,27 @@ delete myDog.tails;
 console.log(myDog);
 
 console.log(ourDog);
+
+//Using Objects for Lookups
+
+function phoneBookLookup(val) {
+    
+switch (val) {
+    case "apple":
+        return "Adams";
+    case "bravo":
+        return "Boston";
+    case "charlie":
+        return "Chicago";
+    case "delta":
+        return "Denver";
+            
+
+    default: 
+        return "kola";
+        
+}
+
+
+}
+console.log(phoneBookLookup("apple"));
