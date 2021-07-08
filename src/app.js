@@ -371,3 +371,28 @@ var myDog = {
 myDog.name = "happy Cpoder ";
 
 console.log(myDog);
+
+//Add New Properties to Object
+
+var ourDog  = {
+    "name": "bull",
+    "color": "Clack",
+    "lage": 4,
+    "tails": 1,
+    "friends":["everything"]
+};
+
+ourDog.bark = "bow-wow";
+
+var myDog = {
+    "name": "coder",
+    "color": "black",
+    "lages":4,
+    "tails":1,
+    "friends": ["shohan"]
+
+}; 
+
+ourDog ['bark'] = "woof!"
+console.log(ourDog.bark);
+console.log(ourDog);
