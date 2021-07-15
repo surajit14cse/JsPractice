@@ -480,3 +480,11 @@ function testEqual(val) {
 }
 console.log(testEqual(12));
 
+//Strict Equality Operator
+function testStrict(val) {
+    if (val === 7) {
+        return "Equal";
+    }
+    return "Not Equal";
+}
+console.log(testStrict(7));
