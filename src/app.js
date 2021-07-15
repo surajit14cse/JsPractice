@@ -451,3 +451,22 @@ switch (val) {
 }
 console.log(phoneBookLookup("apple"));
 
+//If Statements
+
+function ourTrueOrFalse(isItTrue) {
+    if (isItTrue) {
+        return "Yes, it is true";
+    }
+    return "No, it is flase";
+}
+
+function ourFlaseOrTrue(isItFlase) {
+    if (isItFlase) {
+        return "Yes, it is flase";
+
+    }
+    return "No, it is flase";
+}
+
+console.log(ourTrueOrFalse(false));
+
