@@ -488,3 +488,12 @@ function testStrict(val) {
     return "Not Equal";
 }
 console.log(testStrict(7));
+
+//Comparing different values
+function conpareEquality(a, b) {
+    if (a === b) {
+        return "Equal";
+    }
+    return "Not Equal";
+}
+console.log(conpareEquality(12, 10));
